@@ -1,0 +1,30 @@
+[
+    {
+        "grad_year": 2014,
+        "student_count": 42
+    },
+    {
+        "grad_year": 2015,
+        "student_count": 102
+    },
+    {
+        "grad_year": 2016,
+        "student_count": 90
+    },
+    {
+        "grad_year": 2017,
+        "student_count": 80
+    },
+    {
+        "grad_year": 2018,
+        "student_count": 50
+    },
+    {
+        "grad_year": 2019,
+        "student_count": 80
+    },
+    {
+        "grad_year": 2020,
+        "student_count": 160
+    }
+]

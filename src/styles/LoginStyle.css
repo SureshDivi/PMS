@@ -1,0 +1,106 @@
+.field {
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out;
+  box-sizing: border-box;
+}
+
+.field:hover {
+  background-color: rgba(223, 239, 248, 0.8);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.field.active {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.field.active input {
+  padding: 24px 16px 8px 16px;
+  background-color: #ffffff;
+}
+
+.field.active input + label {
+  top: 4px;
+  opacity: 1;
+  color: #512da8;
+}
+
+.field input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 56px;
+  position: relative;
+  padding: 0px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #282828;
+  font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: bold;
+  box-shadow: 0px 4px 20px 0px transparent;
+  transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out,
+    0.1s padding ease-in-out;
+  -webkit-appearance: none;
+}
+
+.field input + label {
+  position: absolute;
+  top: 24px;
+  left: 16px;
+  font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.1s all ease-in-out;
+}
+
+.regdiv {
+  position: fixed;
+  left: 430px;
+  width: 100%;
+}
+.or {
+  position: relative;
+  left: 5px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.form-wrapper {
+  display: block;
+  width: 20%;
+  /* max-width: 30%;
+  min-width: 30%; */
+  min-height: 200px;
+  padding: 1px 20px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+  background-color: transparent;
+  position: absolute;
+  left: 460px;
+  margin-left: 250px;
+}
+
+.loader {
+  height: 100%;
+  position: absolute;
+  background: transparent;
+  right: 155px;
+}
+
+.errmsg {
+  position: fixed;
+  bottom: 250px;
+  left: 33%;
+  font-size: 26px;
+  font-weight: bold;
+  color: darkred;
+}
